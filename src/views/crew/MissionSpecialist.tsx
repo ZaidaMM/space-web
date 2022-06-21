@@ -10,7 +10,7 @@ const MissionSpecialist = () => {
       </div>
       <div className='crew-body'>
         <div className='image'>
-          <img src='../../assets/crew/image-mark-shuttleworth.webp' />
+          <img src='../../assets/crew/image-mark-shuttleworth.webp' alt='mission specialist'/>
           <div className='line'></div>
         </div>
         <div className='col col-lg-6 crew-content'>

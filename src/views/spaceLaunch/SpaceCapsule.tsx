@@ -12,11 +12,11 @@ const SpaceCapsule = () => {
         <div className='image'>
           <img
             className='tec-image-1'
-            src='../../assets/technology/image-space-capsule-landscape.jpg'
+            src='../../assets/technology/image-space-capsule-landscape.jpg' alt='space capsule'
           />
           <img
             className='tec-image-2'
-            src='../../assets/technology/image-space-capsule-portrait.jpg'
+            src='../../assets/technology/image-space-capsule-portrait.jpg' alt='space capsule'
           />
         </div>
 

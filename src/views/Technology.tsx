@@ -12,11 +12,11 @@ const Technology = () => {
         <div className='image'>
           <img
             className='tec-image-1'
-            src='../../assets/technology/image-launch-vehicle-landscape.jpg'
+            src='../../assets/technology/image-launch-vehicle-landscape.jpg' alt='launch vehicle'
           />
           <img
             className='tec-image-2'
-            src='../../assets/technology/image-launch-vehicle-portrait.jpg'
+            src='../../assets/technology/image-launch-vehicle-portrait.jpg' alt='launch vehicle'
           />
         </div>
 

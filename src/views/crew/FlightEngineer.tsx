@@ -10,7 +10,7 @@ const FlightEngineer = () => {
       </div>
       <div className='crew-body'>
         <div className='image'>
-          <img src='../../assets/crew/image-anousheh-ansari.webp' />
+          <img src='../../assets/crew/image-anousheh-ansari.webp' alt='flight engineer'/>
           <div className='line'></div>
         </div>
         <div className='col col-lg-6 crew-content'>

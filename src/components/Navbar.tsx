@@ -28,9 +28,9 @@ const MainNavbar = () => {
       <div className='line d-none d-lg-block'></div>
       <NavbarToggler onClick={toggleNavbar} className='navbar-toggler'>
         {isOpen ? (
-          <img src='../../assets/shared/icon-close.svg' />
+          <img src='../../assets/shared/icon-close.svg' alt='close icon' />
         ) : (
-          <img src='../../assets/shared/icon-hamburger.svg' />
+          <img src='../../assets/shared/icon-hamburger.svg' alt='hamburger icon'/>
         )}
       </NavbarToggler>
       <Collapse navbar isOpen={isOpen} className='collapse  '>

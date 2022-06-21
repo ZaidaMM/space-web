@@ -10,7 +10,7 @@ const Crew = () => {
       </div>
       <div className='crew-body'>
         <div className='image'>
-          <img src='../../assets/crew/image-douglas-hurley.webp' />
+          <img src='../../assets/crew/image-douglas-hurley.webp' alt='Commander'/>
           <div className='line'></div>
         </div>
 

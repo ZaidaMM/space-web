@@ -10,7 +10,7 @@ const Commander = () => {
       </div>
       <div className='crew-body'>
         <div className='image'>
-          <img src='../../assets/crew/image-douglas-hurley.webp' />
+          <img src='../../assets/crew/image-douglas-hurley.webp' alt='commander'/>
           <div className='line'></div>
         </div>
         <div className='col col-lg-6 crew-content'>

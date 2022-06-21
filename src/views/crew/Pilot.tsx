@@ -10,7 +10,7 @@ const Pilot = () => {
       </div>
       <div className='crew-body'>
         <div className='image'>
-          <img src='../../assets/crew/image-victor-glover.webp' />
+          <img src='../../assets/crew/image-victor-glover.webp' alt='pilot'/>
           <div className='line'></div>
         </div>
         <div className='col col-lg-6 crew-content'>

@@ -12,11 +12,11 @@ const Spaceport = () => {
         <div className='image'>
           <img
             className='tec-image-1'
-            src='../../assets/technology/image-spaceport-landscape.jpg'
+            src='../../assets/technology/image-spaceport-landscape.jpg' alt='spaceport'
           />
           <img
             className='tec-image-2'
-            src='../../assets/technology/image-spaceport-portrait.jpg'
+            src='../../assets/technology/image-spaceport-portrait.jpg' alt='spaceport'
           />
         </div>
 

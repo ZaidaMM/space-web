@@ -1,0 +1,90 @@
+.hero {
+  // background: url('../../home/background-home-mobile.jpg');
+  background: url('../../public/assets/home/background-home-mobile.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+
+  .overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    max-width: 1400px;
+  }
+  .hero-btn {
+    color: $dark-color;
+    background-color: $light-color;
+    font-family: $headFont;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    text-decoration: none;
+    &:hover,
+    :focus,
+    :active {
+      background-color: $light-color;
+      box-shadow: 0px 0px 0px 29px rgb(34, 34, 34);
+    }
+    a {
+      text-decoration: none;
+      color: $dark-color;
+      background-color: $light-color;
+      &:hover,
+      :focus,
+      :active {
+        color: $dark-color;
+        background-color: $light-color;
+        box-shadow: 0px 0px 0px 29px rgb(255, 255, 255)
+      }
+    }
+  }
+}
+
+// Tablet
+@media (min-width: 769px) and (max-width: 991px) {
+  .hero {
+    background: url('../../public/assets/home/background-home-tablet.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .overlay {
+      padding-top: 3rem;
+    }
+    .hero-btn {
+      height: 242px;
+      width: 242px;
+      &:hover {
+        box-shadow: 0px 0px 0px 47px rgb(34, 34, 34);
+      }
+    }
+  }
+}
+// Desktop
+@media (min-width: 992px) {
+  .hero {
+    background: url('../../public/assets/home/background-home-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    .overlay {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .hero-btn {
+      height: 274px;
+      width: 274px;
+      &:hover {
+        box-shadow: 0px 0px 0px 88px rgb(34, 34, 34);
+      }
+    }
+  }
+}

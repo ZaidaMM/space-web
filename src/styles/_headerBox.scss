@@ -30,10 +30,10 @@
   }
 }
 
-
 // Desktop
 @media (min-width: 992px) {
   .header-box {
+    padding-left: 3rem !important;
     display: flex;
     text-align: start;
     justify-content: left;
@@ -48,11 +48,13 @@
     }
 
     p {
-      max-width: 600px !important;
+      max-width: 460px !important;
       display: flex;
       text-align: start;
       justify-content: left;
       align-items: flex-start;
+      font-size: 18px;
+      line-height: 1.8;
     }
   }
 }
